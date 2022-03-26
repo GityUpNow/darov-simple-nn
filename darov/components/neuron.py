@@ -30,7 +30,7 @@ class Neuron:
         Raises:
             ValueError: When input differs in length from weights.
         """
-        intermediary = 0.0
+        intermediary = self.bias
         for (input_value, weight) in zip(input_values,
                                          self.weights,
                                          strict=True):

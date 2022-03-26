@@ -14,7 +14,7 @@ class TestNeuron(unittest.TestCase):
         )
         input_values = [10.0, 1.0, -3.0]
 
-        self.assertEqual(neuron.calculate(input_values), 7.4)
+        self.assertEqual(neuron.calculate(input_values), 7.6)
 
 
 if __name__ == '__main__':
