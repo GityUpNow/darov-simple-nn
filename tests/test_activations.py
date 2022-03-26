@@ -3,7 +3,7 @@ import unittest
 from darov.components.activations import linear
 
 
-class TestActivation(unittest.TestCase):
+class TestActivations(unittest.TestCase):
 
     def test_linear(self):
         test_data = [0.0, 0.5, 1.0]
